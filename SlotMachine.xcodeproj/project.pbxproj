@@ -54,6 +54,7 @@
 		5D13AB431A2D2D0A00B2146C /* Two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D13AB1C1A2D2D0A00B2146C /* Two@2x.png */; };
 		5D13AB441A2D2D0A00B2146C /* Two@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D13AB1D1A2D2D0A00B2146C /* Two@3x.png */; };
 		5D13AB461A2D2DC400B2146C /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D13AB451A2D2DC400B2146C /* Factory.swift */; };
+		5D17CA371A2DBF8200109B04 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17CA361A2DBF8200109B04 /* SlotBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +119,7 @@
 		5D13AB1C1A2D2D0A00B2146C /* Two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Two@2x.png"; sourceTree = "<group>"; };
 		5D13AB1D1A2D2D0A00B2146C /* Two@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Two@3x.png"; sourceTree = "<group>"; };
 		5D13AB451A2D2DC400B2146C /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		5D17CA361A2DBF8200109B04 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SlotBrain.swift; path = ../SlotBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		5D13AAD11A2D1A1200B2146C /* SlotMachine */ = {
 			isa = PBXGroup;
 			children = (
+				5D17CA361A2DBF8200109B04 /* SlotBrain.swift */,
 				5D13AAD41A2D1A1200B2146C /* AppDelegate.swift */,
 				5D13AAD61A2D1A1200B2146C /* ViewController.swift */,
 				5D13AAF41A2D2CCE00B2146C /* Slot.swift */,
@@ -386,6 +389,7 @@
 				5D13AAD71A2D1A1200B2146C /* ViewController.swift in Sources */,
 				5D13AAF51A2D2CCE00B2146C /* Slot.swift in Sources */,
 				5D13AAD51A2D1A1200B2146C /* AppDelegate.swift in Sources */,
+				5D17CA371A2DBF8200109B04 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +583,7 @@
 				5D13AAF01A2D1A1200B2146C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D13AAF11A2D1A1200B2146C /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -587,6 +592,7 @@
 				5D13AAF31A2D1A1200B2146C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
